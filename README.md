@@ -9,7 +9,7 @@ Computer algorithms for recognizing objects in photos often learn by example. CI
 CIFAR-10 is a labeled subset of the 80 million tiny images dataset. When the dataset was created, students were paid to label all of the images.
 Our goal is to create an accurate deep learning model that can classify the images using the given data.
 
-We gonna use CNN method. Convolutional neural network(CNN) is a strong algorithm in machine learning area. There are lots of networks around us, but the special property of this is that, it can detect special features of an image or data for each class by itself. It applies certain kernels over each image, scans the matched patterns and extract the contextual features. In every CNN model, image processing functions like edge detection, blurring, sharpening occur in the convolution layers and identifying or memorizing tasks are occured in the fully connected layer portion of model.
+I gonna use CNN method. Convolutional neural network(CNN) is a strong algorithm in machine learning area. There are lots of networks around us, but the special property of this is that, it can detect special features of an image or data for each class by itself. It applies certain kernels over each image, scans the matched patterns and extract the contextual features. In every CNN model, image processing functions like edge detection, blurring, sharpening occur in the convolution layers and identifying or memorizing tasks are occured in the fully connected layer portion of model.
 
 ## 	How others should get started with your project
 ### 1. Install
@@ -63,7 +63,7 @@ In this code i using libraries like
 The accuracy increases over time and the loss decreases over time. However, the accuracy of our validation set seems to slightly decrease towards the end even thought our training accuracy increased. Running the model for more epochs might cause our model to be susceptible to overfitting.
 
 ## Predict evaluate
-313/313 [==============================] - 10s 30ms/step - loss: 1.0657 - acc: 0.6239
+313/313 [==============================] - 10s 30ms/step - loss: 0.8886 - acc: 0.6913
 - loss:  0.8886: This is the value of the loss function on the dataset. The loss function is a measure of how well the model is performing. In this context, it's  a classification loss, and a lower value is generally better. 
 
 - acc: 0.6913: This is the accuracy of the model on the dataset. The accuracy is the ratio of correctly predicted instances to the total instances. In this case, 0.6913 indicates an accuracy of approximately 70%.
@@ -74,4 +74,4 @@ The accuracy increases over time and the loss decreases over time. However, the 
 
 [![GitHub](https://img.shields.io/static/v1.svg?label=connect&message=@monicaavagyan&color=success&logo=github&style=flat&logoColor=white&colorA=blue)](https://github.com/monicaavagyan)
 
-:email: Feel free to contact me @ [avagyanmonika3@gmail.com](https://mail.google.com/mail/)
+:email: Feel free to contact me  [avagyanmonika3@gmail.com](https://mail.google.com/mail/)
